@@ -1,0 +1,24 @@
+.board {
+  margin: 0 2em;
+}
+
+.board .lists {
+  display: flex;
+}
+
+.lists .list {
+  width: 30vw;
+  margin : 0 1em;
+  padding: 1em;
+  background-color: #cdd;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.75);
+}
+
+.list .card {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 3px;
+  margin: 0 0 1em;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.75);
+}
