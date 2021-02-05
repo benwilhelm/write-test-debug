@@ -1,7 +1,9 @@
 const PORT = process.env.PORT || 4000
 const app = require('express')()
 const morgan = require('morgan')
+const cors = require('cors')
 
+app.use(cors())
 if (process.env.NODE_ENV !== "test") {
   app.use(morgan('dev'))
 }
